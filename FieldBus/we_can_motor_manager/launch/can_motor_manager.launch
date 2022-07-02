@@ -1,0 +1,16 @@
+<!-- -->
+
+<launch>
+  <arg name="debug" default="false"/>
+  <arg if="$(arg debug)" name="launch_prefix" value="xterm -rv -e gdb -ex run -args"/>
+  <arg unless="$(arg debug)" name="launch_prefix" value=""/>
+
+  <node name="we_can_motor_manager" pkg="we_can_motor_manager" type="we_can_motor_manager" output ="screen" launch-prefix="$(arg launch_prefix)">
+    <rosparam file="$(find we_can_motor_manager)/cfg/can_motor_manager_$(env ROBOT).yaml" command="load" />
+    <param name="elevatorInitFile" value="$(find we_can_motor_manager)/cfg/elevator.yaml"/>
+    <param name="logFileName" value="$(find we_can_motor_manager)/log/can_motor_manager.log"/>
+  </node>
+  <include file="$(find we_joy_control)/launch/we_joy_control.launch"/>
+  <include file="$(find we_laser)/launch/we_laser.launch" />
+</launch>
+

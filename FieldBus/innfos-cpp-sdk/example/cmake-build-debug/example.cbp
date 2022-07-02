@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="example"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="05b_feedback_asyc">
+				<Option output="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/bin/05b_feedback_asyc" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/../sdk/include"/>
+					<Add directory="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/../sdk/include/asio"/>
+					<Add directory="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/../sdk/include/serial/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 05b_feedback_asyc"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="05b_feedback_asyc/fast">
+				<Option output="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/bin/05b_feedback_asyc" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/../sdk/include"/>
+					<Add directory="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/../sdk/include/asio"/>
+					<Add directory="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/../sdk/include/serial/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 05b_feedback_asyc/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="03c_positionControl">
+				<Option output="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/bin/03c_positionControl" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/../sdk/include"/>
+					<Add directory="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/../sdk/include/asio"/>
+					<Add directory="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/../sdk/include/serial/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 03c_positionControl"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="03c_positionControl/fast">
+				<Option output="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/bin/03c_positionControl" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/../sdk/include"/>
+					<Add directory="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/../sdk/include/asio"/>
+					<Add directory="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/../sdk/include/serial/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 03c_positionControl/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="05a_feedback_sync">
+				<Option output="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/bin/05a_feedback_sync" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/../sdk/include"/>
+					<Add directory="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/../sdk/include/asio"/>
+					<Add directory="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/../sdk/include/serial/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 05a_feedback_sync"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="05a_feedback_sync/fast">
+				<Option output="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/bin/05a_feedback_sync" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/../sdk/include"/>
+					<Add directory="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/../sdk/include/asio"/>
+					<Add directory="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/../sdk/include/serial/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 05a_feedback_sync/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="03b_velocityControl">
+				<Option output="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/bin/03b_velocityControl" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/../sdk/include"/>
+					<Add directory="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/../sdk/include/asio"/>
+					<Add directory="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/../sdk/include/serial/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 03b_velocityControl"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="03b_velocityControl/fast">
+				<Option output="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/bin/03b_velocityControl" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/../sdk/include"/>
+					<Add directory="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/../sdk/include/asio"/>
+					<Add directory="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/../sdk/include/serial/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 03b_velocityControl/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="03a_currentControl">
+				<Option output="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/bin/03a_currentControl" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/../sdk/include"/>
+					<Add directory="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/../sdk/include/asio"/>
+					<Add directory="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/../sdk/include/serial/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 03a_currentControl"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="03a_currentControl/fast">
+				<Option output="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/bin/03a_currentControl" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/../sdk/include"/>
+					<Add directory="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/../sdk/include/asio"/>
+					<Add directory="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/../sdk/include/serial/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 03a_currentControl/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="02b_enableActuatorsInBatch">
+				<Option output="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/bin/02b_enableActuatorsInBatch" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/../sdk/include"/>
+					<Add directory="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/../sdk/include/asio"/>
+					<Add directory="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/../sdk/include/serial/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 02b_enableActuatorsInBatch"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="02b_enableActuatorsInBatch/fast">
+				<Option output="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/bin/02b_enableActuatorsInBatch" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/../sdk/include"/>
+					<Add directory="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/../sdk/include/asio"/>
+					<Add directory="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/../sdk/include/serial/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 02b_enableActuatorsInBatch/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="04_actuatorSetting">
+				<Option output="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/bin/04_actuatorSetting" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/../sdk/include"/>
+					<Add directory="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/../sdk/include/asio"/>
+					<Add directory="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/../sdk/include/serial/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 04_actuatorSetting"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="04_actuatorSetting/fast">
+				<Option output="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/bin/04_actuatorSetting" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/../sdk/include"/>
+					<Add directory="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/../sdk/include/asio"/>
+					<Add directory="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/../sdk/include/serial/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 04_actuatorSetting/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="02a_enableSingleActuator">
+				<Option output="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/bin/02a_enableSingleActuator" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/../sdk/include"/>
+					<Add directory="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/../sdk/include/asio"/>
+					<Add directory="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/../sdk/include/serial/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 02a_enableSingleActuator"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="02a_enableSingleActuator/fast">
+				<Option output="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/bin/02a_enableSingleActuator" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/../sdk/include"/>
+					<Add directory="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/../sdk/include/asio"/>
+					<Add directory="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/../sdk/include/serial/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 02a_enableSingleActuator/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="06a_auto_homing">
+				<Option output="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/bin/06a_auto_homing" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/../sdk/include"/>
+					<Add directory="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/../sdk/include/asio"/>
+					<Add directory="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/../sdk/include/serial/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 06a_auto_homing"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="06a_auto_homing/fast">
+				<Option output="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/bin/06a_auto_homing" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/../sdk/include"/>
+					<Add directory="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/../sdk/include/asio"/>
+					<Add directory="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/../sdk/include/serial/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 06a_auto_homing/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="01_lookupActuators">
+				<Option output="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/bin/01_lookupActuators" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/../sdk/include"/>
+					<Add directory="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/../sdk/include/asio"/>
+					<Add directory="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/../sdk/include/serial/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 01_lookupActuators"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="01_lookupActuators/fast">
+				<Option output="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/bin/01_lookupActuators" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/../sdk/include"/>
+					<Add directory="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/../sdk/include/asio"/>
+					<Add directory="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/../sdk/include/serial/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 01_lookupActuators/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/src/advanced/04_actuatorSetting.cpp">
+			<Option target="04_actuatorSetting"/>
+		</Unit>
+		<Unit filename="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/src/advanced/05a_feedback_sync.cpp">
+			<Option target="05a_feedback_sync"/>
+		</Unit>
+		<Unit filename="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/src/advanced/05b_feedback_asyc.cpp">
+			<Option target="05b_feedback_asyc"/>
+		</Unit>
+		<Unit filename="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/src/advanced/06a_auto_homing.cpp">
+			<Option target="06a_auto_homing"/>
+		</Unit>
+		<Unit filename="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/src/basic/01_lookupActuators.cpp">
+			<Option target="01_lookupActuators"/>
+		</Unit>
+		<Unit filename="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/src/basic/02a_enableSingleActuator.cpp">
+			<Option target="02a_enableSingleActuator"/>
+		</Unit>
+		<Unit filename="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/src/basic/02b_enableActuatorsInBatch.cpp">
+			<Option target="02b_enableActuatorsInBatch"/>
+		</Unit>
+		<Unit filename="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/src/basic/03a_currentControl.cpp">
+			<Option target="03a_currentControl"/>
+		</Unit>
+		<Unit filename="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/src/basic/03b_velocityControl.cpp">
+			<Option target="03b_velocityControl"/>
+		</Unit>
+		<Unit filename="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/src/basic/03c_positionControl.cpp">
+			<Option target="03c_positionControl"/>
+		</Unit>
+		<Unit filename="/home/fhln_ubuntu/catkin_ws/src/robot_pan/FieldBus/innfos-cpp-sdk/example/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
